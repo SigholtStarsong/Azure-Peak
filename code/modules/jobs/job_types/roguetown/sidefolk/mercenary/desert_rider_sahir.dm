@@ -65,6 +65,7 @@
 		switch(weapon_choice)
 			if("Twin Shamshirs")
 				H.adjust_skillrank_up_to(/datum/skill/combat/swords, SKILL_LEVEL_JOURNEYMAN, TRUE)
+				ADD_TRAIT(H, TRAIT_DUALWIELDER, TRAIT_GENERIC)
 				beltl = /obj/item/rogueweapon/scabbard/sword
 				beltr = /obj/item/rogueweapon/scabbard/sword
 				r_hand = /obj/item/rogueweapon/sword/sabre/shamshir
